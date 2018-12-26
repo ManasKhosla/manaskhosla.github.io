@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2018-12-27T03:28:25+05:30</updated><id>/blog/feed.xml</id><title type="html">The Bootcamp</title><subtitle>Just something to kill time</subtitle><entry><title type="html">Machine Learning: A Beginner’s Perspective</title><link href="/blog/2018/09/22/machine-learning.html" rel="alternate" type="text/html" title="Machine Learning: A Beginner's Perspective " /><published>2018-09-22T23:47:50+05:30</published><updated>2018-09-22T23:47:50+05:30</updated><id>/blog/2018/09/22/machine-learning</id><content type="html" xml:base="/blog/2018/09/22/machine-learning.html">&lt;p&gt;&lt;img src=&quot;/blog/assets/img/machine.jpeg&quot; alt=&quot;&amp;quot;Machine learning&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Okay so after learning Python and C/C++ now it’s time to explore something I was yearning to learn about since a long time ago. And yes, as the title suggests, it was “Machine Learning”.&lt;/p&gt;
+
+&lt;p&gt;Machine Learning always fascinated me. I mean really if you think about it, the idea of a learning process done by machine and not just by us humans is quite interesting. Until now I had only seen fellow students learning(or rather just ‘cramming’) their boring curriculum which frankly is now quite old(Still had to learn about chem reactions to get admission in Computer Science Course😆). I mean seriously what good will it do to a programmer to learn about organic reactions that go on in a plant! But this is our education system… we have to learn to cram.&lt;/p&gt;
+
+&lt;p&gt;Anyways moving on with ML, one of our professors recently pointed out that computer is a dumb machine as it will only do what we ask it to do and all according to specific instructions(which definition sadly also makes many of the present students of our country also dumb). So basically to make computer smart we have to give it some more instructions which it can follow in order to qualify as a smart machine, funny though! Machine Learning can be seen as a subset of Artificial Intelligence which is itself a really intriguing branch of CS.&lt;/p&gt;
+
+&lt;p&gt;After some poking around the internet about machine learning, I found many programs tutoring ML to newbies. One program that caught my eye was Google’s AI education program. And as always google did a great job. For those who know basic python, an excellent playlist is given to which I provided a link below.&lt;/p&gt;
+
+&lt;p&gt;So basically what I did in my first ML program was that I trained a classifier by feeding it some data and on the basis of which classifier developed an algorithm to predict other things. Pretty cool right! Just like humans, machine also works based on the experience. But when I dove a little more deeper I found out it were basic if else statements at work(I only worked with decision tree for now which is supposedly the easiest of them). I saw neural networks were quite complex in that case. How it works is that it takes the data, analyzes it and sets some rules. And then classifies the data accordingly and predicts new outcomes. Fascinating how much we can do with basic things.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https://cdncontribute.geeksforgeeks.org/wp-content/uploads/decisionTree2.png&quot; alt=&quot;&amp;quot;Decision Tree&amp;quot;&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;em&gt;Decision Tree Example&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;I loved making different classifiers and training them using different sets of data and testing them later on. Looking forward towards doing some more.&lt;/p&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal&quot;&gt;YT Playlist: Machine Learning Recipes with Josh Gordon.&lt;/a&gt;&lt;/p&gt;</content><author><name>Manas Khosla</name></author><summary type="html">Computers are able to see, hear and learn. Welcome to the future</summary></entry><entry><title type="html">Let’s do this</title><link href="/blog/2018/09/21/lets-do-this.html" rel="alternate" type="text/html" title="Let's do this" /><published>2018-09-21T23:17:50+05:30</published><updated>2018-09-21T23:17:50+05:30</updated><id>/blog/2018/09/21/lets-do-this</id><content type="html" xml:base="/blog/2018/09/21/lets-do-this.html">&lt;h1 id=&quot;he-always-wanted-to-blog&quot;&gt;He always wanted to blog…&lt;/h1&gt;
+
+&lt;p&gt;Well, I wanted to start with ‘I’ instead of ‘He’, but it just sounded more dramatic 😆 .&lt;/p&gt;
+
+&lt;p&gt;Now ever since I came to know about this(I was in school then), I wanted to blog. But I could never figure out what to write. Now I’m in college, got a lot of stuff I can talk and write about. So basically I will be blabbing about my studies, new tech interests of mine and also my favorite movies and TV shows. And yes I know a guy who knows a guy who has a Netflix subscription, so basically got no worries.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgs.xkcd.com/comics/blagofaire.png&quot; alt=&quot;&amp;quot;blagofaire&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I know blogs are old school, but still there’s something about the classics. Classics are timeless so will these blogs be. And now to end with direct quoted words from ‘The Lion King’&lt;/p&gt;
+
+&lt;h2 id=&quot;hakuna-matata&quot;&gt;Hakuna Matata!&lt;/h2&gt;
+&lt;p&gt;(No Worries)&lt;/p&gt;</content><author><name>Manas Khosla</name></author><summary type="html">He always wanted to blog...</summary></entry></feed>
