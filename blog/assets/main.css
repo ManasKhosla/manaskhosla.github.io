@@ -12,8 +12,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #111;
-  background-color: #fdfdfd;
+  color: #fdfdfd;
+  background-color: #01050c;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -81,7 +81,7 @@ a {
   a:visited {
     color: #1756a9; }
   a:hover {
-    color: #111;
+    color: #fdfdfd;
     text-decoration: underline; }
   .social-media-list a:hover {
     text-decoration: none; }
@@ -168,7 +168,7 @@ table {
   margin-bottom: 30px;
   width: 100%;
   text-align: left;
-  color: #3f3f3f;
+  color: white;
   border-collapse: collapse;
   border: 1px solid #e8e8e8; }
   table tr:nth-child(even) {
@@ -209,7 +209,7 @@ table {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #fdfdfd;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
@@ -218,7 +218,7 @@ table {
       position: absolute;
       top: 9px;
       right: 15px;
-      background-color: #fdfdfd;
+      background-color: #01050c;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -508,91 +508,72 @@ table {
   .highlight .il {
     color: #099; }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* GLOBAL STYLES */
 body {
   padding-top: 1.5em;
   padding-left: 1.2em;
   padding-right: 1.2em;
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
-/* Colour scheme*/
+/* Colour scheme
 body{
   background-color: #01050c;
   color: white;
-}
-
+}*/
 /*line separator*/
-hline { 
+hline {
   display: block;
   border-style: inset;
-  border-width: 1.7px;
-} 
+  border-width: 1.7px; }
 
 /*Teaser imaage*/
 .bannerimage {
-    height: 450px;
-    position: relative;
-    overflow: hidden;
-        overflow-x: hidden;
-        overflow-y: hidden;
-    background-color: #000;
-    background-image: url("/assets/img/banner.jpg");
-}
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #000;
+  background-image: url("/assets/img/banner.jpg"); }
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
   color: #fff;
   font-family: 'Lato', monospace;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .10em solid white; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .05em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .3s step-end infinite;
-}
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .10em solid white;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .05em;
+  /* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret 0.3s step-end infinite; }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: white }
-}
-
-
+  from, to {
+    border-color: transparent; }
+  50% {
+    border-color: white; } }
 pline {
   display: block;
   border-style: inset;
-  border-width: 1.7px;
-}
+  border-width: 1.7px; }
 
+.h2 a {
+  text-decoration: none; }
 
-
-
+/* LOGO DESIGN*/
 .logo-readium {
   position: fixed;
   left: 10px;
@@ -602,12 +583,13 @@ pline {
   background-color: white;
   overflow: hidden;
   z-index: 99; }
-  .logo-readium .logo {
-    display: block;
-    position: absolute;
-    top: 8px;
-    left: 8px;
-    width: 32px;
-    height: 32px;
-    background-size: cover;
-    background-repeat: no-repeat; }
+
+.logo-readium .logo {
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-repeat: no-repeat; }
