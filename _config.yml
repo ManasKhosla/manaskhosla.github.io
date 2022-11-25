@@ -1,1 +1,38 @@
-theme: jekyll-theme-hacker
+title: "Manas Writes"
+author: "Manas Khosla"
+description: "~/"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+show_excerpts: true        # show article excerpts on the home page
+show_frame: false           # adds a gray frame to the site
+show_sidebar: true        # show a sidebar instead of the usual header
+minimal: true             # use a dark header
+mathjax: true
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.html",icon: home,mobile_show: false}
+  - {file: "about.md", icon: info, mobile_show: false}
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: /instagram, icon: instagram, url: "https://instagram.com/manas_khosla", mobile_show: true}
+  - {title: /github, icon: github, url: "https://github.com/manaskhosla", mobile_show: true}
+  - {title: /facebook, icon: facebook, url: "https://facebook.com/manas.himself", mobile_show: true}
+  - {title: /twitter, icon: twitter, url: "https://twitter.com/manas_khosla", mobile_show: true}
+  - {title: /linkedIn, icon: linkedin, url: "https://linkedin.com/in/ManasKhosla", mobile_show: true}
+  - {title: /hackerrank, icon: hackerrank, url: "https://github.com/manaskhosla", mobile_show: true}
+  # - {title: Subscribe, icon: rss, url: "/feed.xml"}
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
