@@ -10,7 +10,8 @@ excerpt: Finding SquareRoot of a number using guess and still be good at it!
 ![sqrt-comic](/assets/images/missing-sqrt.jpg)
 
 Initially, we might feel like this is a really tough problem and even feel at loss to find out from where to start. But still to find out a solution we must think of the problem with a cool mind.
-Naive Approach
+
+### Naive Approach
 
 So, let’s see the naive approach to solve this problem. We can take a smaller number than the given and keep guessing and squaring the number to check if we got the answer. For example, if given number is 25, we might start from 2 or 9 and start guessing and checking
 
@@ -19,7 +20,7 @@ $$ 3*3 = 9  $$ | $$ 8*8 = 64 $$
 $$ 4*4 = 16 $$ | $$ 7*7 = 49 $$
 $$ 5*5 = 25 $$ | $$ 6*6 = 36 $$
 
-Little Smarter Approach
+### Mentos Approach
 
 In naive approach, the algo is as good as our initial guess only. For example, for 10,000 if our initial guess is 500 then it will take us around 400 iterations to converge upon the answer. So, what can be done in order to avoid this. From naive approach we can see that if our initial guess was too far off, we can derive one that is small enough.
 
