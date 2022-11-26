@@ -1,7 +1,7 @@
 ---
 title: Remote Linux on Windows PC
 layout: post
-excerpt: Linux based development using a windows PC without docker, cloud or Windows Subsystem Linux.
+excerpt: Linux based development using a windows PC without Docker, Cloud or Windows Subsystem Linux.
 ---
 
 ![sudo bash](/assets/images/sudo-bash-vm.jpg)
@@ -25,9 +25,9 @@ ps aux | grep sshd
 2. After this, let's proceed further and setup an open port from our VM to our local machine. 
     * Go to 'Devices > Network > Network Settings' and check if active Adapter is attached to NAT(default setting btw).
     * Go to 'Advanced' and 'Port Forwarding' and setup host IP as `127.0.1.1`(default loopback address for VM) and guest IP as `10.0.2.15`. Guest IP can be found out by doing `ifconfig` on VM linux but is usually the same if VM setup with default configurations)
-    ![Port Forward](/assets/images/port-forward-vm.JPG)
+![Port Forward](/assets/images/port-forward-vm.JPG)
 
-3. After this you can use ssh from Windows Terminal or you can install putty or MobaxTerm.
+3. After this you can use ssh from Windows Terminal or you can install putty or MobaXterm.
 
 {% highlight bash %}
 ssh -p <host_port> <linux_username>@<host_ip>
@@ -44,4 +44,4 @@ ssh -p <host_port> <linux_username>@<host_ip>
 
 After setting up ssh and opening ports you can easily use linux for your most of the development work. 
 
-##### PS. You can even use VS Code's terminal for interacting with linux once ssh setup is done.
+#### PS. You can even use VS Code's terminal for interacting with linux once ssh setup is done.

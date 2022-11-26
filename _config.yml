@@ -26,11 +26,11 @@ external:                  # shows a footer with social links - for available ic
   - {title: /facebook, icon: facebook, url: "https://facebook.com/manas.himself", mobile_show: true}
   - {title: /twitter, icon: twitter, url: "https://twitter.com/manas_khosla", mobile_show: true}
   - {title: /linkedIn, icon: linkedin, url: "https://linkedin.com/in/ManasKhosla", mobile_show: true}
-  - {title: /hackerrank, icon: hackerrank, url: "https://github.com/manaskhosla", mobile_show: true}
+  - {title: /hackerrank, icon: hackerrank, url: "https://www.hackerrank.com/itsmaeki", mobile_show: true}
   # - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
-#  disqus_shortname: ""    # see https://disqus.com/
+  disqus_shortname: "manaskhosla-blog"    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
 
 plugins:
