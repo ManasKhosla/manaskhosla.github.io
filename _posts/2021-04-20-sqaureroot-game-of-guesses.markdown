@@ -1,6 +1,7 @@
 ---
 title: "SquareRoots: Game of Guesses"
 layout: post
+comments: true
 categories: technology,math
 author: Manas Khosla
 excerpt: Finding SquareRoot of a number using guess and still be good at it!

@@ -1,6 +1,7 @@
 ---
 title: Remote Linux on Windows PC
 layout: post
+comments: true
 excerpt: Linux based development using a windows PC without Docker, Cloud or Windows Subsystem Linux.
 ---
 

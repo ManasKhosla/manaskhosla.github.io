@@ -1,6 +1,7 @@
 ---
 title: "Machine Learning: A Beginner's Perspective"
 layout: post
+comments: true
 excerpt: Computers are able to see, hear and learn. Welcome to the future
 ---
 

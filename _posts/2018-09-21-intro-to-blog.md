@@ -1,6 +1,7 @@
 ---
 title: Let's do this
 layout: post
+comments: true
 excerpt: He always wanted to blog…
 ---
 
