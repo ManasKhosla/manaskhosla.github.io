@@ -2,6 +2,8 @@
 title: "Machine Learning: A Beginner's Perspective"
 layout: post
 comments: true
+categories: [technology]
+tags: [machine-learning]
 excerpt: Computers are able to see, hear and learn. Welcome to the future
 ---
 

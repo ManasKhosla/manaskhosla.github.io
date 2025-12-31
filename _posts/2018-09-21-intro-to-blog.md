@@ -2,6 +2,8 @@
 title: Let's do this
 layout: post
 comments: true
+categories: [Blogging]
+tags: [personal, blogging]
 excerpt: He always wanted to blog…
 ---
 
