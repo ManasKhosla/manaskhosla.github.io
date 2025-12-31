@@ -1,0 +1,19 @@
+# .dockerignore
+# Exclude files and directories that are not necessary for the Docker image
+
+# Exclude the .git directory
+.git
+# Exclude the .DS_Store file (for macOS users)
+.DS_Store
+
+# Exclude the node_modules directory
+node_modules
+# Exclude the .vscode directory
+.vscode
+# Other files and folders
+_site
+.bundle
+vendor
+Dockerfile
+Dockerfile.prod
+docker-compose.yml
