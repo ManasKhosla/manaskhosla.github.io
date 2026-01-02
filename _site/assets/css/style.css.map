@@ -1,1 +1,0 @@
-{"version":3,"sourceRoot":"","sources":["style.scss"],"names":[],"mappings":"AAAA,cACE,aACA,iBACA,gBACA","sourcesContent":["#topbar-title {\n  display: none;\n  font-size: 1.1rem;\n  font-weight: 300;\n  font-family: \"Lato\",\"Source Sans Pro\",serif;\n}"],"file":"style.css"}
